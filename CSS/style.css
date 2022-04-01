@@ -1,0 +1,918 @@
+@font-face{
+    font-family: 'Spider';
+    src: url(/Far-From\ Homecoming\ Updated.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+*, ::before, ::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    font-family: 'Spider';
+}
+
+/* Début de la barre de navigation */
+.navbar{
+    background-color: #B11313;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+    min-width: 1300px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-list{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 25px;
+    margin-left: 80px;
+}
+
+/* Fin de la barre de navigation */
+
+/* Début du footer */
+footer{
+    background-color: #000000;
+    color: #FFFFFF;
+    line-height: 80px;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.info select{
+    padding: 10px 180px 10px 20px;
+    background-color: #B11313;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.more select{
+    background-color: #F1C530;
+}
+
+.politic select{
+    background-color: #114C92;
+}
+
+.footer-logo{
+    margin-top: 30px;
+}
+
+.footer-last{
+    text-align: center;
+}
+
+.media img{
+    background-color: #B11313;
+    padding: 20px;
+    border-radius: 50%;
+    margin:0  15px;
+    margin-top: 100px;
+}
+
+.social img, .yellow{
+    background-color: #F1C530;
+}
+
+.reseaux img, .blue{
+    background-color: #114C92;
+}
+
+.copyright p{
+    font-size: 20px;
+}
+
+/* Fin du footer */
+
+/* Début du contenu de la page HOME*/
+/* contenu n°1 */
+.spiderman{
+    background-image: url(/Assets/Illustration/img1.png);
+    background-size: cover;
+    max-height: 1200px;
+    color: #FFFFFF;
+    padding: 430px 200px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.spider h1{
+    font-size: 5em;
+    font-family: 'Spider';
+    font-weight: lighter;
+}
+
+.btn-voir{
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-voir #heros{
+    padding: 17px 40px;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    color: #B11313;
+}
+
+.btn-voir #adversaires{
+    padding: 17px 25px;
+    background-color: inherit;
+    border-radius: 18px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.araignée p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* contenu avec 3 blocs */
+.head-bloc{
+    background-color: #B11313;
+    height: 1150px;
+    color: #FFFFFF;
+    margin-top: -35px;
+}
+
+.title-bloc{
+    margin-left: 210px;
+}
+
+.title-bloc h2{
+    font-size: 2.5em;
+    font-family: 'Spider';
+}
+
+.title-bloc p{
+    font-size: 20px;
+    margin: 20px 0 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bloc-3{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.bloc-3 img{
+    width: 110%;
+    margin-bottom: 50px;
+}
+
+.bloc-3 input{
+    padding: 18px;
+    font-size: 17px;
+    color: #B11313;
+    border-radius: 20px;
+    border: none;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.l-bloc, .c-bloc, .r-bloc{
+    width: 19%;
+}
+
+.text-input{
+    text-align: center;
+}
+
+.text-input p{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* contenu n°2 */
+.container2{
+    background-color: #114C92;
+    height: 560px;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+
+.formulaire{
+    margin-top: 80px;
+    margin-right: 200px;
+}
+
+.formulaire  h2{
+    margin-left: 80px;
+    font-family: 'Spider';
+}
+
+.formulaire p{
+    margin-top: 15px;
+    margin-left: -50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formulaire form input{
+    border: none;
+    padding: 8px 180px 8px 20px;
+    display: block;
+    margin: 15px 0;
+    border-radius: 30px;
+}
+
+.formulaire #envoyer{
+    background-color: inherit;
+    padding: 15px 50px;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    font-weight: bold;
+    margin: 30px 100px;
+}
+
+/* contenu n°3 */
+.container3{
+    background-color: #B11313;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-between;
+}
+
+.text-left{
+   position: relative;
+   top: 150px;
+   left: 200px;
+}
+
+.news h2{
+    font-family: 'Spider';
+}
+
+.news p{
+    margin: 20px 0 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.red-input input{
+    display: block;
+    padding: 5px 150px 5px 15px;
+    border-radius: 30px;
+    border: 2px solid #FFFFFF;
+    background-color: inherit;
+    margin: 25px 0;
+}
+
+.red-input input::placeholder{
+    color: #FFFFFF;
+}
+
+.checkbox{
+    display: flex;
+}
+
+.checkbox p{
+    margin-left: 15px;
+    margin-top: -2px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.checkbox a{
+    color: #FFFFFF;
+}
+
+#inscrire{
+    color: #B11313;
+    padding: 14px 25px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    font-weight: bold;
+    border: none;
+    margin: 30px 80px;
+}
+
+/* Fin de la page HOME */
+
+/* Début de la page ADVERSAIRES */
+/* création du contenu 1 */
+.contenu1{
+    background-image: url(/Assets/Illustration/img7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    color: #FFFFFF;
+}
+
+.vilains{
+    margin: 0 400px;
+    padding-top: 380px;
+}
+
+.contenu1 h1{
+    font-size: 5em;
+}
+
+.contenu1 p{
+    font-size: 22px;
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* création du contenu 2 */
+.contenu2{
+    height:3600px;
+    background-color: #F1C530;
+    padding-top: 100px;
+}
+
+.bloc-top, .bloc-second, .bloc-third, .bloc-last{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.t-left, .t-center, .t-right{
+    width: 17%;
+    line-height: 30px;
+    background-color: inherit;
+    border: 10px solid #000000;
+    border-top: none;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 2px 5px #000000;
+}
+
+.t-left img, .t-center img, .t-right img{
+    position: relative;
+    right: 10px;
+}
+
+#dennis, #bouffon , #octopus {
+    padding: 20px 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#dennis h3, #bouffon h3, #octopus h3{
+    font-size: 1.6em;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#dennis p span, #bouffon p span, #octopus p span{
+    font-weight: 900;
+    font-size: 112%;
+}
+
+.bloc-second, .bloc-third, .bloc-last{
+    margin-top: 100px;
+}
+
+/* Fin de la page ADVERSAIRES */
+
+/* Début du contenu de la page A PROPOS */
+.content1{
+    background-color: #F1C530;
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.toile{
+        position: relative;
+        left: 300px;
+}
+
+.toile h1{
+    font-size: 5em;
+}
+
+.toile p{
+    font-size: 22px;
+    font-weight: 900px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reverseMan img{
+    transform: scaleX(-1);
+}
+
+/* Fin du contenu 1 */
+
+/* Déut du contenu n°2 */
+.content2{
+    background-color: #B11313;
+    display: flex;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+    padding-top: 50px;
+}
+
+.antenne p{
+    font-size: 18px;
+    font-weight: lighter;
+    margin: 10px 0 50px ;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.textMan input{
+    display: block;
+    width: 25vw;
+    border-radius: 30px;
+    margin: 20px 0;
+    color: #FFFFFF;
+    background-color: inherit;
+    border: 2px solid #ffffffc7;
+}
+
+.message input{
+    width: 25vw;
+    background-color: inherit;
+    color: #FFFFFF;
+    border: 2px solid #ffffffc7;
+    height: 20vh;
+    border-radius: 20px;
+}
+
+.formMan{
+    margin-top: 100px;
+}
+
+.formMan input{
+    padding: 7px 80px 7px 30px;
+    background-color: inherit;
+    border: 2px solid #FFFFFF;
+    font-size: 15px;
+}
+
+.formMan textarea{
+    background-color: inherit;
+    border: 2px solid #ffffffc7;
+    border-radius: 20px;
+    padding: 20px 0 0 30px;
+    margin-top: 20px;
+}
+
+.formMan textarea::placeholder{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.formMan input::placeholder {
+    color: #FFFFFF;
+}
+
+.formMan button{
+    padding: 20px 60px;
+   background-color: inherit;
+   color: #FFFFFF;
+   border: 2px solid #FFFFFF;
+   border-radius: 20px;
+   margin: 70px 150px;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+/* fin du contenu n°2 */
+
+/* début du contenu n°3 */
+.blue-content{
+    background-color: #114C92;
+    color: #FFFFFF;
+    height: 1000px;
+    margin-top: -50px;
+}
+
+.marvel h2{
+    font-size: 3em;
+    margin-left: 250px;
+    padding: 60px 0;
+}
+
+.xmarvel{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+
+.xmarvel p{
+    font-size: 20px;
+    width: 35%;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#retrouve{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 60px 0 50px 255px;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 200px;
+}
+
+.btn-group input{
+    color: #FFFFFF;
+    padding: 20px 50px;
+    background-color: inherit;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    font-size: 17px;
+}
+
+/* Fin de la page ADVERSAIRES */
+
+/* Début de page HEROS */
+/* conténu n°1 */
+.contain1{
+    background-image: url(/Assets/Illustration/img19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 900px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+
+.héros{
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+
+.contain1 h1{
+    font-size: 5em;
+}
+
+.contain1 p{
+    font-size: 22px;
+    font-weight: 900px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* conténu n°2 */
+.contain2{
+    background-color: #114C92;
+    height: 1000px;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.value{
+    width: 30%;
+}
+
+.defend h2{
+    font-size: 43px;
+}
+
+.defend p{
+    font-weight: 500;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.peterP{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.peterP p{
+    margin: 30px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Gpouvoir{
+    font-weight: 900;
+}
+
+/* contenu n°3 */
+.contain3{
+    background-image: url(/Assets/Illustration/img20.png);
+    background-size: cover;
+    min-height: 600px;
+    color: #FFFFFF;
+    margin-top: -42px;
+}
+
+.contain3 div{
+    position: relative;
+    top: 300px;
+    left: 300px;
+}
+
+.solide h2{
+    font-size: 50px;
+}
+
+.solide p{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* contenu n°4 */
+.contain4{
+    background-color: #114C92;
+    color: #FFFFFF;
+    padding: 0 80px;
+    height: 2100px;
+}
+
+.contain-text, .contain-img, .text-img{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-top: 20px;
+}
+
+.contain-text div, .contain-img div, .text-img div{
+    width: 35%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.contain-text div{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#jamais-seul{
+    margin-left: -100px;
+}
+
+#jamais-seul p{
+    margin: 10px 0 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Psmile{
+    position: relative;
+    bottom: 150px;
+    left: 280px;
+}
+
+#meilleurs-amis{
+    position: relative;
+    left: 80px;
+    top: 50px;
+    width: 29%;
+}
+
+#meilleurs-amis h2{
+    text-align: center;
+}
+
+#meilleurs-amis p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.girls #gwen{
+    margin: 0 160px;
+}
+
+/* contenu n°5 */
+.contain5{
+    display: flex;
+    color: #FFFFFF;
+    margin-top: -20px;
+}
+
+.hero-group{
+    background-color: #B11313;
+    width: 50%;
+    height: 1500px;
+}
+
+.avengers{
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+
+#avengers img{
+    display: block;
+    margin: 50px 0;
+}
+
+#avengers h2{
+    font-family: 'Spider';
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+#america{
+    width: 35%;
+    text-align: justify;
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-top: 130px;
+}
+
+.hero-img{
+    display: flex;
+    margin: -20px 200px 0 ;
+}
+
+#hero-left img, #hero-right img{
+    margin: 20px 0;
+}
+
+#hero-right img{
+    margin-left: 50px;
+}
+
+/* contenu n°6 */
+.contain6{
+    background-image: url(/Assets/Illustration/img33.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: -36px;
+}
+
+.univers{
+    background-color: #114C92;
+    opacity: 70%;
+    color: #FFFFFF;
+    width: 31%;
+    height: 800px;
+    padding: 0 40px;
+    position: relative;
+    left: 1100px;
+}
+
+.univers h2{
+    font-family: 'Spider';
+    font-size: 35px;
+    font-weight: 100;
+    padding-top: 100px;
+}
+
+.univers p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#spidey{
+    font-weight: bold;
+    text-align: right;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+/* fin de la page HEROS */
+
+/* debut de la page BONUS */
+.bonus-contain{
+    background-image: url(/Assets/Illustration/img35.png);
+    color: #FFFFFF;
+    height: 800px;
+    margin-top: -40px;
+}
+
+.bonus-contain h1{
+    font-size: 50px;
+    font-family: 'Spider';
+}
+
+.bonus-contain p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bonus-heros{
+    position: relative;
+    top: 500px;
+    left: 300px;
+}
+
+/* Responsive */
+
+@media screen and (max-width:320px){
+    .nav-list{
+        display: none;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: left;
+        background: none;
+    }
+
+    .nav-logo{
+        position: relative;
+        top: 25px;
+        left: 50px;
+    }
+
+    .nav-logo img{
+        height: 20vh;
+    }
+
+    .nav-logo #croix{
+        height: 8vh;
+    }
+
+    .spiderman{
+        width: 328vw;
+        margin-top: -120px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .spiderman div{
+        position: relative;
+        bottom: 300px;
+        right: 100px;
+    }
+
+    .spiderman, .head-bloc, .container2, .container3, footer{
+        width: 328vw;
+    }
+
+    .bloc-3{
+        display: block;
+        text-align: center;
+        min-height: 1000px;
+    }
+
+    .bloc-3 div{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .text-input p{
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:375px){
+    .navbar{
+        min-width: 1060px;
+    }
+
+    .nav-list li a{
+        margin-left: 23px;
+        font-size: 230%;
+    }
+}
+
+@media screen and (min-width:376px) and (max-width:768px){
+    .navbar{
+        min-width: 1047px;
+    }
+
+    .nav-list li a{
+        margin-left: 23px;
+        font-size: 230%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .navbar{
+        min-width: 1050px;
+    }
+}
